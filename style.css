@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body, html {
+      height: 100%;
+      margin: 0;
+      scroll-behavior: smooth;
+    }
+
+
+.welcome {
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 5%;
+	margin: auto;
+	vertical-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.3em;
+}
+
+
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+button {  
+  color: var(--color);
+  transition: 0.25s;
+  background: none;
+ 	border: 2px solid;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+
+  &:hover,
+  &:focus { 
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
+ .pulse:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+  .fill:hover {
+  background-color: #FF0000;
+  color: white;
+}
+
+.pulse {
+	background: none;
+  	border: 2px solid;
+  	font-family: 'Montserrat', sans-serif;
+  	line-height: 1;
+  	margin: auto;
+  	padding: 1em 2em;
+  	display: block;
+  	color: white;
+  	text-decoration: none;
+}
+
+.fill {
+	background: none;
+  	border: 2px solid;
+  	font-family: 'Montserrat', sans-serif;
+  	line-height: 1;
+  	margin: 0.5em;
+  	padding: 1em 2.5em;
+  	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+	overflow: hidden;
+  color: #fff;
+  background: hsl(227, 10%, 10%);
+  background-size: 100%;
+  text-decoration: none;
+  }
+
+
+.bg {
+	height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.image1 {
+  background-image: url("image1.jpg");
+  opacity: 0.8;
+  }
+ 
+.image2 {
+   background-image: url("image2.jpg");
+   opacity: 0.8;
+  }
+.image3 {
+      background-image: url("image3.jpg");
+      opacity: 0.8;
+    }
+.image4 {
+      background-image: url("image4.jpg");
+      opacity: 0.7;
+    }
+.image5 {
+      background-image: url("image5.jpg");
+      opacity: 0.7;
+    }
+    
+
+ a:link {
+  	color: #fff;
+  	text-decoration: none;
+
+ }
+
+a:visited {
+	text-decoration: none;
+}
+
+.bgtext {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 5em;
+	padding-top: 1.3em;
+	padding-left: 5%;
+}
+
+#bgimg1 p1 {
+	background: none;
+	color: #222222;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 1em;
+
+}
+
+#bgimg1 p2 {
+	background: none;
+	color: #8F3C5E;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2em;
+
+}
+
+#bgimg1 p3 {
+	background: none;
+	color: #222222;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 7%;
+
+	
+  animation-name: stage1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes stage1 {
+  from {color: #222222;}
+  to {color: #8F3C5E;}
+
+}
+
+
+
+#bgimg2 {
+
+}
+
+#bgimg2 p1 {
+	background: none;
+	color: #FAFAFA;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 0.8em;
+
+}
+
+#bgimg2 p2 {
+	background: none;
+	color: #FFFAA0;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2em;
+
+}
+
+.next1 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	margin-left: 78%;
+	margin-top: 2em;
+	color: black;
+	border: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+.next1:focus {
+  box-shadow: inset 0 0 0 0em var(--hover);
+  
+}
+
+.next1:hover {
+  background-color: #111;
+  color: white;
+  border: 2px;
+}
+
+#bgimg2 p3 {
+	background: none;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	padding-left: 7%;
+	padding-right: 7%;
+	
+	
+  animation-name: stage2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes stage2 {
+  from {color: white;}
+  to {color: #FFFAA0;}
+
+}
+
+.next2:focus {
+  box-shadow: inset 0 0 0 0em var(--hover);
+  text-decoration: none;
+  
+}
+
+.next2:hover {
+  background-color: #FFF;
+  color: black;
+  border: 2px;
+}
+
+.next2 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	margin-left: 78%;
+	margin-bottom: 10%;
+	color: white;
+	border: 1em;
+	margin-right: auto;
+	text-decoration: none;
+}
+
+#bgimg3 p1 {
+	background: none;
+	color: #FAFAFA;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 0.8em;
+}
+
+#bgimg3 p2 {
+	background: none;
+	color: #ff291e;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2em;
+}
+
+#bgimg3 p3 {
+	background: none;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 6%;
+	padding-bottom: 2%;
+	padding-left: 7%;
+	padding-right: 7%;
+	
+  animation-name: stage3;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes stage3 {
+  from {color: black;}
+  to {color: #ff291e;}
+
+}
+
+
+.next3:focus {
+  box-shadow: inset 0 0 0 0em var(--hover);
+  text-decoration: none;
+}
+
+.next3:hover {
+  background-color: #111;
+  color: white;
+  border: 2px;
+}
+
+.next3 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	margin-left: 78%;
+	margin-bottom: 5em;
+	margin-top: 1em;
+	color: black;
+	border: 1em;
+	margin-right: auto;
+	text-decoration: none;
+}
+
+
+#bgimg4 p1 {
+	background: none;
+	color: black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 0.8em;
+}
+
+#bgimg4 p2 {
+	background: none;
+	color: #008b29;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2em;
+}
+
+#bgimg4 p3 {
+	background: none;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 6%;
+	padding-bottom: 7%;
+	padding-left: 7%;
+	padding-right: 7%;
+	
+  animation-name: stage4;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes stage4 {
+  from {color: white;}
+  to {color: #008b29;}
+
+}
+
+
+.next4:focus {
+  box-shadow: inset 0 0 0 0em var(--hover);
+  text-decoration: none;
+}
+
+.next4:hover {
+  background-color: #111;
+  color: white;
+  border: 2px;
+}
+
+.next4 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1em;
+	padding-right: 1em;
+	padding-top: 6em;
+	margin-left: 78%;
+	margin-bottom: 1em;
+	margin-top: 5em;
+	color: black;
+	border: 1em;
+	margin-right: auto;
+	text-decoration: none;
+}
+
+#bgimg5 p1{
+	background: none;
+	color: blue;
+	font-family: 'Comic Sans Ms', sans-serif;
+	font-size: 1.5em;
+	display: flex;
+	justify-content: center;
+	padding-top: 15em;
+}
+
+#bgimg5 p2 {
+font-family: 'Comic Sans Ms', system-ui;
+	font-size: 2em;
+	padding-top: 3em;
+	color: black;
+	border: 1em;
+	text-decoration: none;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+#bgimg5 p2:hover {
+	border: 2em;
+	background-color: black;
+	color: white;
+}
